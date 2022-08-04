@@ -1,0 +1,125 @@
+/************************************************************* 
+                          Sub_page
+ ************************************************************/
+/*********************** standard **********************/
+.history_navis {
+  width: 1280px;
+  margin: 30px auto;
+  display: flex;
+  gap: 10px;
+}
+.history_navis li {
+  font-size: 20px;
+}
+.standard_title {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.filterbox {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.standard_num {
+  font-size: 20px;
+}
+.filterbox li {
+  cursor: pointer;
+  font-size: 20px;
+}
+.standard {
+  position: relative;
+}
+.productwrap {
+  width: 1280px;
+  height: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  transition: all 0.5s;
+  margin-bottom: 100px;
+}
+.more {
+  margin-bottom: 40px;
+  width: 1280px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  transform: translateX(-50%);
+}
+.more_btn {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.more_btn:hover {
+  background-color: #007157;
+  color: #fff;
+  font-weight: bold;
+}
+.more::before,
+.more::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+  width: 1280px;
+  height: 1px;
+  background-color: #000;
+  z-index: -1;
+}
+.product {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  line-height: 250px;
+}
+.product h3 {
+  flex: 1;
+  text-align: center;
+}
+.product p {
+  flex: 1;
+  text-align: center;
+}
+.product .product_btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+}
+.product .product_btn .productToCart {
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.product .product_btn .productToCart:hover {
+  background-color: #007157;
+  color: #fff;
+  font-weight: bold;
+}
+.product_img {
+  width: 200px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.product_img img {
+  width: 100%;
+  display: block;
+}
+/*********************** standard **********************/
