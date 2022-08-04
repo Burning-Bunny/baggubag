@@ -12,7 +12,9 @@ export default function BrandStory() {
             <li className="brand_story_item">
               <div className="brand_story_img">
                 <img
-                  src="./img/main_page/brand_img01.jpg"
+                  src={
+                    process.env.PUBLIC_URL + "/img/main_page/brand_img01.jpg"
+                  }
                   alt="brand_story_img01"
                 />
                 <div className="brand_hover">VOL.01 BAGGU MAKES BAGS</div>
@@ -23,7 +25,9 @@ export default function BrandStory() {
             <li className="brand_story_item">
               <div className="brand_story_img">
                 <img
-                  src="./img/main_page/brand_img02.jpg"
+                  src={
+                    process.env.PUBLIC_URL + "/img/main_page/brand_img02.jpg"
+                  }
                   alt="brand_story_img02"
                 />
                 <div className="brand_hover">
@@ -36,7 +40,9 @@ export default function BrandStory() {
             <li className="brand_story_item">
               <div className="brand_story_img">
                 <img
-                  src="./img/main_page/brand_img03.jpg"
+                  src={
+                    process.env.PUBLIC_URL + "/img/main_page/brand_img03.jpg"
+                  }
                   alt="brand_story_img03"
                 />
                 <div className="brand_hover">
@@ -49,7 +55,9 @@ export default function BrandStory() {
             <li className="brand_story_item">
               <div className="brand_story_img">
                 <img
-                  src="./img/main_page/brand_img04.jpg"
+                  src={
+                    process.env.PUBLIC_URL + "/img/main_page/brand_img04.jpg"
+                  }
                   alt="brand_story_img04"
                 />
                 <div className="brand_hover">VOL.04 DO THE RIGHT THING</div>

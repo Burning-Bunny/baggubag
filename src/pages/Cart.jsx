@@ -28,7 +28,10 @@ export default function Cart() {
             return (
               <tr key={i} className="cart_product">
                 <td className="cart_img">
-                  <img src={state.cart[i].image} alt="" />
+                  <img
+                    src={process.env.PUBLIC_URL + state.cart[i].image}
+                    alt=""
+                  />
                 </td>
                 <td>{state.cart[i].title}</td>
                 <td className="cart_count">

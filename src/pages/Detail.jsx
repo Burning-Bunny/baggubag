@@ -179,19 +179,48 @@ export default function Detail() {
             pagination
           >
             <SwiperSlide className="swiper-slide">
-              <img src="../img/detail_page/standard_img02.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/detail_page/standard_img02.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="../img/detail_page/standard_img02-1.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL +
+                  "/img/detail_page/standard_img02-1.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="../img/detail_page/standard_img02-2.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL +
+                  "/img/detail_page/standard_img02-2.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="../img/detail_page/standard_img02-3.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL +
+                  "/img/detail_page/standard_img02-3.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="../img/detail_page/standard_img02-4.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL +
+                  "/img/detail_page/standard_img02-4.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
           </Swiper>
 
@@ -259,7 +288,10 @@ export default function Detail() {
           <div className="product_detail_title">상세 정보</div>
           <div className="product_detail_img">
             <img
-              src="../img/detail_page/detailStandardFarmersMarket.jpg"
+              src={
+                process.env.PUBLIC_URL +
+                "/img/detail_page/detailStandardFarmersMarket.jpg"
+              }
               alt=""
             />
           </div>
@@ -344,27 +376,52 @@ export default function Detail() {
             pagination
           >
             <SwiperSlide className="swiper-slide">
-              <img src="../img/detail_page/review_img01.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/detail_page/review_img01.jpg"
+                }
+                alt=""
+              />
               <h4>바쿠 베이비 핑크 랍스터</h4>
               <p>15,000원</p>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="../img/detail_page/review_img02.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/detail_page/review_img02.jpg"
+                }
+                alt=""
+              />
               <h4>바쿠 스탠다드 땡큐 해피</h4>
               <p>15,000원</p>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="../img/detail_page/review_img03.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/detail_page/review_img03.jpg"
+                }
+                alt=""
+              />
               <h4>바쿠 돕 키트 웨이비 스트라이프 - 핑크 앤 그린</h4>
               <p>30,000원</p>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="../img/detail_page/review_img04.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/detail_page/review_img04.jpg"
+                }
+                alt=""
+              />
               <h4>바쿠 스탠다드 옐로우 해피</h4>
               <p>15,000원</p>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="../img/detail_page/review_img05.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/detail_page/review_img05.jpg"
+                }
+                alt=""
+              />
               <h4>바쿠 스탠다드 세일러 스트라이프</h4>
               <p>15,000원</p>
             </SwiperSlide>

@@ -1,7 +1,7 @@
 const data = [
   {
     id: "standard_01",
-    image: "./img/sub_page/standard_img1.jpg",
+    image: "/img/sub_page/standard_img1.jpg",
     title: "바꾸 일렉트릭 스트로베리 믹스",
     price: 12900,
   },

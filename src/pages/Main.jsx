@@ -22,16 +22,28 @@ export default function Main() {
           pagination
         >
           <SwiperSlide>
-            <img src="./img/main_page/main_visual01.png" alt="" />
+            <img
+              src={process.env.PUBLIC_URL + "/img/main_page/main_visual01.png"}
+              alt=""
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./img/main_page/main_visual02.png" alt="" />
+            <img
+              src={process.env.PUBLIC_URL + "/img/main_page/main_visual02.png"}
+              alt=""
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./img/main_page/main_visual03.png" alt="" />
+            <img
+              src={process.env.PUBLIC_URL + "/img/main_page/main_visual03.png"}
+              alt=""
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./img/main_page/main_visual.png" alt="" />
+            <img
+              src={process.env.PUBLIC_URL + "/img/main_page/main_visual.png"}
+              alt=""
+            />
           </SwiperSlide>
         </Swiper>
       </div>

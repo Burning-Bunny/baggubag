@@ -88,7 +88,10 @@ export default function Sub() {
                 <Link to={"/detail"}>
                   <div className="product_img">
                     <img
-                      src={`./img/sub_page/standard_img${i + 1}.jpg`}
+                      src={
+                        process.env.PUBLIC_URL +
+                        `/img/sub_page/standard_img${i + 1}.jpg`
+                      }
                       alt={value.title}
                     />
                   </div>

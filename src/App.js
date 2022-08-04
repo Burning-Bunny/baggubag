@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -86,7 +85,7 @@ function App() {
               navigate("/");
             }}
           >
-            <img src="./img/logo1.png" alt="baggu" />
+            <img src={process.env.PUBLIC_URL + "/img/logo1.png"} alt="baggu" />
           </div>
           <div className="lnb" id="lnb">
             <ul className="lnb_menu">
@@ -320,7 +319,7 @@ function App() {
           </div>
         </div>
         <div className="down_footer">
-          <img src="./img/footer_logo.png" alt="" />
+          <img src={process.env.PUBLIC_URL + "/img/footer_logo.png"} alt="" />
         </div>
       </footer>
 

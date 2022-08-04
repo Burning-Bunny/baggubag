@@ -60,56 +60,56 @@ export default function Promotion() {
             <ul className="promotion_pattern">
               <li className="pattern">
                 <img
-                  src="./img/main_page/promotion1.png"
+                  src={process.env.PUBLIC_URL + "/img/main_page/promotion1.png"}
                   className="promotion_pattern_img"
                   alt="일렉트릭 스트로베리즈"
                 />
               </li>
               <li className="pattern">
                 <img
-                  src="./img/main_page/promotion2.png"
+                  src={process.env.PUBLIC_URL + "/img/main_page/promotion2.png"}
                   className="promotion_pattern_img"
                   alt="메달리온 플로랄"
                 />
               </li>
               <li className="pattern">
                 <img
-                  src="./img/main_page/promotion3.png"
+                  src={process.env.PUBLIC_URL + "/img/main_page/promotion3.png"}
                   className="promotion_pattern_img"
                   alt="플러피 캣"
                 />
               </li>
               <li className="pattern">
                 <img
-                  src="./img/main_page/promotion4.png"
+                  src={process.env.PUBLIC_URL + "/img/main_page/promotion4.png"}
                   className="promotion_pattern_img"
                   alt="옐로우 해피"
                 />
               </li>
               <li className="pattern">
                 <img
-                  src="./img/main_page/promotion5.png"
+                  src={process.env.PUBLIC_URL + "/img/main_page/promotion5.png"}
                   className="promotion_pattern_img"
                   alt="레이디버그 리프"
                 />
               </li>
               <li className="pattern">
                 <img
-                  src="./img/main_page/promotion6.png"
+                  src={process.env.PUBLIC_URL + "/img/main_page/promotion6.png"}
                   className="promotion_pattern_img"
                   alt="체크 멀티"
                 />
               </li>
               <li className="pattern">
                 <img
-                  src="./img/main_page/promotion7.png"
+                  src={process.env.PUBLIC_URL + "/img/main_page/promotion7.png"}
                   className="promotion_pattern_img"
                   alt="체커보드 갱"
                 />
               </li>
               <li className="pattern">
                 <img
-                  src="./img/main_page/promotion8.png"
+                  src={process.env.PUBLIC_URL + "/img/main_page/promotion8.png"}
                   className="promotion_pattern_img"
                   alt="데스크스탁 오렌지 스트로베리"
                 />
@@ -136,13 +136,28 @@ export default function Promotion() {
             id="promotion01"
           >
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion01-1.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion01-1.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion01-2.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion01-2.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion01-3.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion01-3.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
           </Swiper>
           <Swiper
@@ -158,13 +173,28 @@ export default function Promotion() {
             id="promotion02"
           >
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion02-1.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion02-1.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion02-2.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion02-2.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion02-3.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion02-3.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
           </Swiper>
           <Swiper
@@ -180,13 +210,28 @@ export default function Promotion() {
             id="promotion03"
           >
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion03-1.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion03-1.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion03-2.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion03-2.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion03-3.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion03-3.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
           </Swiper>
           <Swiper
@@ -202,13 +247,28 @@ export default function Promotion() {
             id="promotion04"
           >
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion04-1.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion04-1.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion04-2.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion04-2.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion04-3.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion04-3.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
           </Swiper>
           <Swiper
@@ -224,13 +284,28 @@ export default function Promotion() {
             id="promotion05"
           >
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion05-1.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion05-1.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion05-2.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion05-2.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion05-3.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion05-3.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
           </Swiper>
           <Swiper
@@ -246,13 +321,28 @@ export default function Promotion() {
             id="promotion06"
           >
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion06-1.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion06-1.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion06-2.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion06-2.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion06-3.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion06-3.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
           </Swiper>
           <Swiper
@@ -268,13 +358,28 @@ export default function Promotion() {
             id="promotion07"
           >
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion07-1.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion07-1.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion07-2.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion07-2.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion07-3.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion07-3.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
           </Swiper>
           <Swiper
@@ -290,13 +395,28 @@ export default function Promotion() {
             id="promotion08"
           >
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion08-1.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion08-1.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion08-2.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion08-2.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="./img/main_page/promotion08-3.jpg" alt="" />
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/img/main_page/promotion08-3.jpg"
+                }
+                alt=""
+              />
             </SwiperSlide>
           </Swiper>
         </div>

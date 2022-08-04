@@ -68,7 +68,12 @@ export default function Best() {
             <div className="best_bag on" id="best_bag">
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
-                  <img src="./img/main_page/baby_img01.jpg" alt="baby_img01" />
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/baby_img01.jpg"
+                    }
+                    alt="baby_img01"
+                  />
                 </Link>
                 <div className="best_itemname">
                   <h3>바쿠 베이비 일렉트릭 스트로베리</h3>
@@ -78,7 +83,12 @@ export default function Best() {
               </div>
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
-                  <img src="./img/main_page/baby_img02.jpg" alt="baby_img02" />
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/baby_img02.jpg"
+                    }
+                    alt="baby_img02"
+                  />
                 </Link>
                 <div className="best_itemname">
                   <h3>바쿠 베이비 우드 블럭 플로럴 블랙</h3>
@@ -88,7 +98,12 @@ export default function Best() {
               </div>
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
-                  <img src="./img/main_page/baby_img03.jpg" alt="baby_img03" />
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/baby_img03.jpg"
+                    }
+                    alt="baby_img03"
+                  />
                 </Link>
                 <div className="best_itemname">
                   <h3>바쿠 베이비 라임로즈</h3>
@@ -98,7 +113,12 @@ export default function Best() {
               </div>
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
-                  <img src="./img/main_page/baby_img04.jpg" alt="baby_img04" />
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/baby_img04.jpg"
+                    }
+                    alt="baby_img04"
+                  />
                 </Link>
                 <div className="best_itemname">
                   <h3>바쿠 베이비 와일드 데이지</h3>
@@ -111,7 +131,9 @@ export default function Best() {
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
                   <img
-                    src="./img/main_page/pouch_img01.jpg"
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/pouch_img01.jpg"
+                    }
                     alt="pouch_img01"
                   />
                 </Link>
@@ -124,7 +146,9 @@ export default function Best() {
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
                   <img
-                    src="./img/main_page/pouch_img02.jpg"
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/pouch_img02.jpg"
+                    }
                     alt="pouch_img02"
                   />
                 </Link>
@@ -137,7 +161,9 @@ export default function Best() {
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
                   <img
-                    src="./img/main_page/pouch_img03.jpg"
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/pouch_img03.jpg"
+                    }
                     alt="pouch_img03"
                   />
                 </Link>
@@ -150,7 +176,9 @@ export default function Best() {
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
                   <img
-                    src="./img/main_page/pouch_img04.jpg"
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/pouch_img04.jpg"
+                    }
                     alt="pouch_img04"
                   />
                 </Link>
@@ -165,7 +193,9 @@ export default function Best() {
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
                   <img
-                    src="./img/main_page/sports_img01.jpg"
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/sports_img01.jpg"
+                    }
                     alt="sports_img01"
                   />
                 </Link>
@@ -178,7 +208,9 @@ export default function Best() {
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
                   <img
-                    src="./img/main_page/sports_img02.jpg"
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/sports_img02.jpg"
+                    }
                     alt="sports_img02"
                   />
                 </Link>
@@ -191,7 +223,9 @@ export default function Best() {
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
                   <img
-                    src="./img/main_page/sports_img03.jpg"
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/sports_img03.jpg"
+                    }
                     alt="sports_img03"
                   />
                 </Link>
@@ -204,7 +238,9 @@ export default function Best() {
               <div className="best_item">
                 <Link className="best_item_img" to={"/detail"}>
                   <img
-                    src="./img/main_page/sports_img04.jpg"
+                    src={
+                      process.env.PUBLIC_URL + "/img/main_page/sports_img04.jpg"
+                    }
                     alt="sports_img04"
                   />
                 </Link>
