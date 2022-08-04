@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/baggubag/static/css/main.da158328.css",
-    "main.js": "/baggubag/static/js/main.4d663f24.js",
+    "main.js": "/baggubag/static/js/main.e8c4d0a8.js",
     "static/js/787.41c7e996.chunk.js": "/baggubag/static/js/787.41c7e996.chunk.js",
     "index.html": "/baggubag/index.html",
     "main.da158328.css.map": "/baggubag/static/css/main.da158328.css.map",
-    "main.4d663f24.js.map": "/baggubag/static/js/main.4d663f24.js.map",
+    "main.e8c4d0a8.js.map": "/baggubag/static/js/main.e8c4d0a8.js.map",
     "787.41c7e996.chunk.js.map": "/baggubag/static/js/787.41c7e996.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da158328.css",
-    "static/js/main.4d663f24.js"
+    "static/js/main.e8c4d0a8.js"
   ]
 }
